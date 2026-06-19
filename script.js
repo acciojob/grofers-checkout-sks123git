@@ -17,6 +17,7 @@ const cell = document.createElement("td");
 cell.id = "ans";
 cell.colSpan = 2;
 cell.textContent = total;
+	cell.class = "prices"
 
 row.appendChild(cell);
 	document.querySelector("table").appendChild(row);
